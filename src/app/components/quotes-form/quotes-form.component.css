@@ -3,6 +3,8 @@
   }
   .card {
     /*animates card elements*/
+    /* background: rgb(27, 2, 20);
+    background: radial-gradient(circle, rgb(48, 4, 42) 0%, rgb(65, 3, 49) 0%, rgb(71, 6, 71) 100%); */
     margin: 3%;
     transform: translateY(-3px);
     box-shadow: 0 4px 17px rgba(82, 10, 71, 0.35);

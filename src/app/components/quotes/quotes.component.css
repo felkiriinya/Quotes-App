@@ -7,7 +7,7 @@
 .header {
     /* gives the header a gradient background */
     background: rgb(36, 0, 25);
-    background: radial-gradient(circle, rgb(36, 0, 31) 0%, rgb(121, 9, 93) 0%, rgb(255, 0, 255) 100%);
+    background: radial-gradient(circle, rgb(36, 2, 31) 0%, rgb(121, 9, 93) 0%, rgb(255, 0, 255) 100%);
     color: white;
     padding-bottom: 5%;
   }
