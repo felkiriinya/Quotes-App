@@ -4,7 +4,6 @@
   .card {
     /*animates card elements*/
     margin: 3%;
-    width: 54rem;
     transform: translateY(-3px);
     box-shadow: 0 4px 17px rgba(82, 10, 71, 0.35);
     transition: all 0.3s ease-in-out;
@@ -13,4 +12,7 @@
 .card:hover {
     /* animates card motion on hover */
     transform: translateY(-7px);
+  }
+  .btn{
+      margin-left:40%;
   }

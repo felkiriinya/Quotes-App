@@ -1,17 +1,23 @@
 <div class="card">
     <div class="card-body">
         <blockquote class="blockquote mb-0 card-body">
-            <form action="">
+            <form (ngSubmit)="submittingQuote() ; quoteForm.resetForm({})" #quoteForm="ngForm">
                 <div class="form-group">
 
                     <label for="quote">Enter Your Quote:</label>
                     <textarea class="form-control"
                                 id="quote" 
                                 rows="4"
-                                placeholder="Your Quote..."  
+                                name="quote"
+                                placeholder="Your Quote..." 
+                                #quote="ngModel"
+                                [(ngModel)]="newQuotes.quote" 
+                                required
                             
                     ></textarea>
-
+                    <div [hidden]="quote.valid || quote.pristine" class="alert alert-danger">
+                        A quote is required
+                      </div>
                 </div>
                 <div class="form-group">
                     <label for="author">Author of the quote:</label>
@@ -19,16 +25,29 @@
                            class="form-control"
                            name="author"
                            placeholder="Author..."
-                           id="author">
+                           id="author"
+                           #author="ngModel"
+                           [(ngModel)]="newQuotes.author"
+                           required>
+                    <div [hidden]="author.valid || author.pristine" class="alert alert-danger">
+                            An author is required
+                     </div>       
                 </div>
                 <div class="form-group">
-                    <label for="author">Your Name:</label>
+                    <label for="author">Submitted by:</label>
                     <input type="text" 
                            class="form-control"
                            name="name"
                            placeholder="Name..."
-                           id="name">
+                           id="name"
+                           #name="ngModel"
+                           [(ngModel)]="newQuotes.name"
+                           required>
+                     <div [hidden]="name.valid || name.pristine" class="alert alert-danger">
+                            You are required to enter your name
+                     </div>       
                 </div>
+                <button type="submit" class="btn btn-outline-dark" >Add Your Quote</button>
             </form>
           </blockquote>
 

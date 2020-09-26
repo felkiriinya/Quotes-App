@@ -1,5 +1,6 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
+import { FormsModule } from '@angular/forms';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
@@ -8,6 +9,7 @@ import { QuotesDetailsComponent } from './components/quotes-details/quotes-detai
 import { QuotesFormComponent } from './components/quotes-form/quotes-form.component';
 import { HighlightQuoteDirective } from './directives/highlight-quote.directive';
 import { TimeQuotePipe } from './pipes/time-quote.pipe';
+
 
 @NgModule({
   declarations: [
@@ -20,7 +22,8 @@ import { TimeQuotePipe } from './pipes/time-quote.pipe';
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    FormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
