@@ -14,8 +14,8 @@ export class QuotesComponent implements OnInit {
         new Quotes('The greatest glory in living lies not in never falling, but in rising every time we fall.','~Nelson Mandela', new Date(2020,3,30)),
         new Quotes('Competitions are for horses not artists','~Anonymous', new Date(2020,1,23)),
         new Quotes('If life were predictable it would cease to be life, and be without flavor.','~Eleanor Roosevelt', new Date(2020,4,10)),
-        new Quotes('if you can make a woman laugh you can make her do almost anything','~Marlyn Monroe',new Date(2020,5,9)),
-        new Quotes('Life is what happens when you are making other plans','John Lennon', new Date(2020,6,12)),
+        new Quotes('If you can make a woman laugh you can make her do almost anything','~Marlyn Monroe',new Date(2020,5,9)),
+        new Quotes('Life is what happens when you are making other plans','~John Lennon', new Date(2020,6,12)),
     ]
 
   constructor() { }
