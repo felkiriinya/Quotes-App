@@ -1,30 +1,47 @@
-# Quotes
+# Quotes-App
+#### An application where users can upload quotes and have those quotes voted on , 9/27/2020.
+#### By Felista Kiriinya
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 10.1.1.
+## Description
+An application that allows users to upload quotes. The quotes can then be up voted, down voted and/or deleted. 
 
-## Development server
+![landing](src/assets/landing.PNG)
+![form](src/assests/form.PNG)
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+## Ready To be inspired or inspire?
+Here's what you need to do:
+-Visit the website at 
+-Read and get inspired from the quotes you find below
+-You can also add your own quotes on the app in the form below the quotes
+-You get to see the quote posted on the page
+-You can like or dislike the quotes you find there or the one you manage to add
+-You get to see the quote with the highest likes highlighted in a purple background color.
 
-## Code scaffolding
+## Development
+To make advancements/modifications, follow these steps:
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+- Fork the repository
+- Create a new branch (`git checkout -b improve-feature`)
+- Make the appropriate changes in the files
+- Add changes made
+- Commit your changes (`git commit -am 'Improve feature'`)
+- Push to the branch (`git push origin improve-feature`)
+- Create a Pull Request 
 
-## Build
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
+## Technologies Used
 
-## This is the link to the figma design
-[Figma Design](https://www.figma.com/file/d8PPqcL1OoKZI8EqJzfqNS/QUOTES-APP?node-id=0%3A1)
+This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 12.18.3.
+The technologies used are HTML, CSS, Typescript and Bootstrap.
 
-## Running unit tests
+## Support and contact details
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+Should you be unable to access the website, have any recommendations and/or questions, feel free to email me:[felkiriinya@gmail.com](mailto:felkiriinya@gmail.com)
 
-## Running end-to-end tests
+## To-do
+1. Store quote entries in a database
+2. Improve functionality of voting buttons to ensure one can only like OR dislike a quote
 
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
+##[License]()
 
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+Copyright (c) 2020 [Felista Kiriinya]()
