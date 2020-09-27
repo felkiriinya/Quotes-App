@@ -1,6 +1,6 @@
 <div class="card-footer text-muted">
     <small>
-        Submitted by {{quote.name}} on {{quote.submissionDate|date}}
+        Submitted by {{quote.name}} on {{quote.submissionDate|date}} <b style="color: rgb(54, 3, 27);">({{quote.submissionDate|timeQuote}} day(s) ago)</b>.
     </small>
     <button class="btn" style="color:red;" (click)="quoteDelete(true)">
         <i class="fas fa-trash-alt"></i>
