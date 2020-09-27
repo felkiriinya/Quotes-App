@@ -18,17 +18,29 @@ export class QuotesComponent implements OnInit {
         new Quotes('Life is what happens when you are making other plans','John Lennon', 'George Whither',new Date(2020,6,12),1,0),
     ]
 
+    //function for ading a new quote
     addNewQuote(quote) {
-        /* function for adding a new quote */
+       
         this.quotes.push(quote)
       }
 
+    //function for toggling small text
     toggleDetails(index) {
-        /* function for toggling quote details */
+        
         this.quotes[index].showDetails = !this.quotes[index].showDetails;
       }  
 
-      
+    //function for deleting quote
+
+    deletingQuote(deleteQuote, index){
+        if(deleteQuote){
+            let toDelete =confirm("Are you sure you want to delete this quote?")
+
+            if(toDelete){
+                this.quotes.splice(index,1)
+            }
+        }
+    }
   constructor() { }
 
   ngOnInit(): void {

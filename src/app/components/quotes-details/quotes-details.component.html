@@ -2,7 +2,7 @@
     <small>
         Submitted by {{quote.name}} on {{quote.submissionDate|date}}
     </small>
-    <button class="btn" style="color:red;">
+    <button class="btn" style="color:red;" (click)="quoteDelete(true)">
         <i class="fas fa-trash-alt"></i>
         Delete
     </button>

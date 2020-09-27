@@ -1,6 +1,6 @@
 import { Quote } from '@angular/compiler';
-import { Component, Input, OnInit } from '@angular/core';
-import { throwError } from 'rxjs';
+import { Component, EventEmitter, Input, OnInit, Output } from '@angular/core';
+
 import { Quotes } from 'src/app/models/quotes';
 
 @Component({
@@ -11,6 +11,13 @@ import { Quotes } from 'src/app/models/quotes';
 export class QuotesDetailsComponent implements OnInit {
  
     @Input () quote: Quotes;
+
+    @Output() deleteQuote = new EventEmitter<boolean>();
+
+    quoteDelete(deleteyes:boolean){
+        this.deleteQuote.emit(deleteyes);
+    }
+    
   constructor() { }
 
   //function that increments upvotes
