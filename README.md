@@ -45,6 +45,6 @@ Should you be unable to access the website, have any recommendations and/or ques
 1. Store quote entries in a database
 2. Improve functionality of voting buttons to ensure one can only like OR dislike a quote
 
-##[License](https://github.com/felkiriinya/Quotes-App/blob/master/LICENSE)
+## [License](https://github.com/felkiriinya/Quotes-App/blob/master/LICENSE)
 
 Copyright (c) 2020 [Felista Kiriinya](https://github.com/felkiriinya)
