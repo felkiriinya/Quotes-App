@@ -11,13 +11,14 @@
         <div class="col-sm-12">
             <div class="cards">
                 <div class="card"*ngFor='let quote of quotes; let i=index'>
-                    <div class="card-body">
+                    <div class="card-body" >
                     <blockquote class="blockquote mb-0 card-body">
                         <p>{{quote.quote}}</p>
                         <footer class="blockquote-footer">
-                            <cite title="Source Title">{{quote.author|titlecase}}</cite>
+                            <cite title="Source Title" style="color: black;">{{quote.author|titlecase}}</cite>
                             <small style="float:right; font-size:0.7rem;" (click)="toggleDetails(i);"><b style="color:rgb(90, 11, 74)">See more</b> </small>
                         </footer>
+                        
                       </blockquote>
                     </div>
                     <app-quotes-details *ngIf ="quote.showDetails " [quote]='quote' (deleteQuote) ="deletingQuote($event,i)"></app-quotes-details>
