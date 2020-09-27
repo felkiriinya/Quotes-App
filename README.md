@@ -10,6 +10,7 @@ An application that allows users to upload quotes. The quotes can then be up vot
 
 ## Ready To be inspired or inspire?
 Here's what you need to do:
+
 -Visit the website at 
 -Read and get inspired from the quotes you find below
 -You can also add your own quotes on the app in the form below the quotes
