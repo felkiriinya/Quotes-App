@@ -27,6 +27,8 @@ export class QuotesComponent implements OnInit {
         /* function for toggling quote details */
         this.quotes[index].showDetails = !this.quotes[index].showDetails;
       }  
+
+      
   constructor() { }
 
   ngOnInit(): void {

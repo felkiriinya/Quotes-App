@@ -1,5 +1,6 @@
 import { Quote } from '@angular/compiler';
 import { Component, Input, OnInit } from '@angular/core';
+import { throwError } from 'rxjs';
 import { Quotes } from 'src/app/models/quotes';
 
 @Component({
@@ -11,6 +12,18 @@ export class QuotesDetailsComponent implements OnInit {
  
     @Input () quote: Quotes;
   constructor() { }
+
+  //function that increments upvotes
+
+  upVote(){
+      this.quote.upVote++;
+  }
+
+  //function that increments downvotes
+
+  downVote(){
+      this.quote.downVote++;
+  }
 
   ngOnInit(): void {
   }
