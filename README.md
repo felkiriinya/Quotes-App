@@ -11,7 +11,7 @@ An application that allows users to upload quotes. The quotes can then be up vot
 ## Ready To be inspired or inspire?
 Here's what you need to do:
 
-- Visit the website at 
+- Visit the website at https://felkiriinya.github.io/Quotes-App/
 - Read and get inspired from the quotes you find below
 - You can also add your own quotes on the app in the form below the quotes
 - You get to see the quote posted on the page
@@ -45,6 +45,6 @@ Should you be unable to access the website, have any recommendations and/or ques
 1. Store quote entries in a database
 2. Improve functionality of voting buttons to ensure one can only like OR dislike a quote
 
-##[License]()
+##[License](https://github.com/felkiriinya/Quotes-App/blob/master/LICENSE)
 
-Copyright (c) 2020 [Felista Kiriinya]()
+Copyright (c) 2020 [Felista Kiriinya](https://github.com/felkiriinya)
